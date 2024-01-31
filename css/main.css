@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+::selection {
+    background-color: #bb8e1b;
+}
+
+body {
+    background-image: linear-gradient(to left, #530913, #682713, #774412, #806119, #83802b);
+    color: #ffffff;
+    font-family: 'Open Sans';
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.browser_icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.browser_icon {
+    width: 100px;
+    user-select: none;
+}
